@@ -1,0 +1,716 @@
+:root {
+  --primary-color: #048853;
+}
+
+body {
+  background-color: #f3fff4;
+}
+
+/* navbar style */
+
+* {
+  z-index: 2;
+}
+
+.accent-img,
+.img-hero {
+  z-index: 1;
+}
+
+.navbar {
+  z-index: 3;
+}
+
+.active {
+  background-color: var(--primary-color);
+}
+
+.nav-color {
+  background-color: #007245;
+  transition: all ease-in-out 0.3s;
+}
+
+.nav-link:hover {
+  color: #fff;
+  font-weight: 700;
+}
+
+.bg-transparant {
+  transition: all ease-in-out 0.3s;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-size: 20px;
+  color: #fff;
+}
+
+.nav-link.active {
+  font-weight: 700;
+  color: #fff;
+}
+
+.button-primary {
+  width: 133px;
+  height: 40px;
+  background-color: transparent;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  border: none;
+}
+
+.button-secondary {
+  width: 133px;
+  height: 40px;
+  background-color: #fff;
+  color: var(--primary-color);
+  font-size: 16px;
+  font-weight: 700;
+  border: none;
+}
+
+/* hero style */
+
+#hero {
+  background: linear-gradient(160deg, var(--primary-color), #000);
+  height: 100vh;
+  width: 100%;
+}
+
+.img-hero {
+  height: 100%;
+}
+
+.hero-tagline h1 {
+  color: #fff;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 72px;
+}
+
+.hero-tagline p {
+  font-size: 16px;
+  color: #fff;
+  margin: 60px 0 20px;
+  line-height: 30px;
+  width: 453px;
+}
+
+.button-lg-primary {
+  width: 237px;
+  height: 70px;
+  background-color: #fff;
+  color: var(--primary-color);
+  border: none;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.button-lg-primary a {
+  text-decoration: none;
+  list-style: none;
+  color: var(--primary-color);
+}
+
+/* layanan section style */
+#layanan {
+  padding: 100px 0;
+  background-color: #e5e5e5;
+}
+
+h2 {
+  font-size: 48px;
+  font-weight: 500;
+  color: var(--primary-color);
+}
+
+.sub-title {
+  font-size: 18px;
+  color: #000;
+}
+
+.card-layanan {
+  width: 100%;
+  height: 313px;
+  border-radius: 5px;
+  padding: 40px;
+  box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.05);
+  background: #fff;
+  transition: all 0.2s ease-in;
+}
+
+.circle-icon {
+  width: 70px;
+  height: 70px;
+  background-color: var(--primary-color);
+  border-radius: 50%;
+  transition: all 0.1s ease-in;
+}
+
+.card-layanan h3 {
+  color: var(--primary-color);
+  font-size: 24px;
+  transition: all 0.2s ease-in;
+}
+
+.card-layanan p {
+  color: #000;
+  font-size: 14px;
+  transition: all 0.3s ease-in;
+}
+
+.card-layanan:hover {
+  width: 100%;
+  height: 313px;
+  border-radius: 5px;
+  padding: 40px;
+  box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.05);
+  background: linear-gradient(160deg, var(--primary-color), #000);
+  color: #fff;
+  transition: all 0.2s ease-in;
+}
+
+.card-layanan:hover h3 {
+  color: #fff;
+  transition: all 0.2s ease-in;
+}
+
+.card-layanan:hover p {
+  color: #fff;
+  transition: all 0.2s ease-in;
+}
+
+.card-layanan:hover .circle-icon {
+  background-color: #fff;
+  transition: all 0.2s ease-in;
+}
+
+/* search section style */
+#search {
+  background-image: url(Assets/Img-search.png);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#search h2 {
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #fff;
+}
+
+#search p {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+#search .input-cari {
+  height: 88px;
+}
+
+.input-cari:focus {
+  border: none;
+}
+
+.input-cari .button-secondary {
+  width: 200px;
+  height: 88px;
+  background-color: #fff;
+  color: var(--primary-color);
+  font-size: 18px;
+  font-weight: 500;
+  border: none;
+  border-radius: 0 0 0 10px;
+}
+
+#search input.form-control {
+  height: 88px !important;
+}
+
+.input-cari .button-primary {
+  height: 88px;
+  background-color: var(--primary-color);
+  color: #fff;
+  border: none;
+  font-size: 36px;
+  font-weight: 500;
+  border-radius: 0 10px 0 10px;
+}
+
+.nav-tabs {
+  border: none;
+}
+
+.nav-tabs .nav-link {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #000;
+  border: none;
+  border-radius: 0 0 0 0;
+}
+
+.nav-tabs #jual-tab {
+  border-radius: 10px 0 0 0;
+}
+
+.nav-tabs #property-baru-tab {
+  border-radius: 0 10px 0 0;
+}
+
+.nav-tabs .nav-item .nav-link:active {
+  color: var(--primary-color);
+  font-weight: 500;
+}
+
+/* recomandation section style */
+
+#recomendation {
+  background-color: #f3fff4;
+}
+
+.card {
+  height: 489px;
+  border: none;
+  width: 380px;
+}
+
+.card-body {
+  color: #000;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 0.8rem;
+}
+
+.card-body p {
+  color: #141414;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.card:hover {
+  background: linear-gradient(
+    160deg,
+    var(--primary-color),
+    #007245,
+    #007245,
+    #000
+  );
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+  transition: all ease-in-out 0.3s;
+}
+
+.card:hover .card-body h4 {
+  color: #fff;
+  transition: all ease-in-out 0.3s;
+}
+
+.card:hover .card-body p {
+  color: #fff;
+  transition: all ease-in-out 0.3s;
+}
+
+.card-fasilitas {
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 20px;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-around;
+}
+
+.card-fasilitas span {
+  font-weight: 500;
+  margin-top: 18px;
+  color: #000;
+}
+
+.card-fasilitas p {
+  font-size: 12px;
+  color: #000;
+}
+
+/* feature section style */
+.button-feature {
+  width: 238px;
+  height: 63px;
+  background-color: var(--primary-color);
+  border: none;
+  font-size: 20px;
+  font-weight: 500;
+  color: #fff;
+}
+
+#feature h2 {
+  font-size: 48px;
+  font-weight: 500;
+}
+
+.card-feature h5 {
+  color: #fff;
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.card-feature span {
+  color: #fff;
+  font-size: 14px;
+}
+
+.card-feature h6 {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.card-feature button {
+  background-color: var(--primary-color);
+  color: #fff;
+  border: none;
+  width: 150px;
+  height: 45px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.card-feature .overlay {
+  opacity: 0;
+  transition: all ease-in-out 0.3s;
+}
+
+.card-feature:hover .overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  opacity: 1;
+}
+
+.button-arrow-left,
+.button-arrow-right {
+  border: none;
+  border-radius: 50%;
+  width: 61px;
+  height: 61px;
+  background-color: var(--primary-color);
+  padding: 0;
+}
+
+/* contact section style */
+#contact {
+  background-image: url(Assets/img/contact\ bg.png);
+  margin-top: 158px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#contact .overlay {
+  background: rgba(0, 0, 0, 0.65);
+}
+
+#contact .container {
+  padding: 148px 0 148px;
+}
+
+#contact h3 {
+  width: 441px;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 60px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fff;
+}
+
+#contact h6 {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fff;
+  margin: 19px 0 14px;
+}
+
+.contact-groups a {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  text-decoration: none;
+  color: #fff;
+  margin-left: 12px;
+  width: 332px;
+  display: inline-block;
+}
+
+.link-rumah-impian {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fff;
+  text-decoration: none;
+}
+
+.link-rumah-impian span {
+  color: var(--primary-color);
+}
+
+.card-contact {
+  height: 445px;
+  border-radius: 5px;
+  padding: 52px 48px;
+  background-color: #fff;
+}
+
+.card-contact h2 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 60px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 21px;
+}
+
+.form-control {
+  background-color: #c4c4c4;
+  height: 75px !important;
+  border-radius: 0;
+}
+
+.form-floating label {
+  font-style: regular;
+  font-size: 16px;
+  line-height: 18px;
+  color: #717171;
+}
+
+.button-contact {
+  width: 100%;
+  height: 75px;
+  border: none;
+  background-color: var(--primary-color);
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #fff;
+}
+
+footer {
+  align-items: center;
+  width: 100%;
+  height: 200px;
+  background-color: var(--primary-color);
+}
+
+.copyright {
+  bottom: 1%;
+  color: #fff;
+}
+
+footer a {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-link a {
+  margin-right: 10px;
+}
+
+/* css brreakpoints */
+
+/* mini dekstop */
+@media (max-width: 922px) {
+  .input-cari .button-secondary {
+    width: 120px;
+    font-size: 14px;
+  }
+
+  .input-cari .button-primary {
+    font-size: 24px;
+    height: 60px;
+  }
+
+  input.form-control {
+    height: 60px;
+  }
+
+  .button-feature {
+    width: 100%;
+  }
+
+  .card-contact {
+    height: auto;
+    margin-top: 45px;
+  }
+
+  .card-contact h2 {
+    font-size: 30px;
+  }
+
+  .button-primary {
+    display: block;
+    width: 100%;
+    border-radius: 0 !important;
+  }
+
+  .button-secondary {
+    display: block;
+    width: 100%;
+    border-radius: 0 !important;
+  }
+}
+
+/* tablet */
+@media (max-width: 768px) {
+  body {
+    max-width: 100vw;
+  }
+  .hero-tagline h1 {
+    line-height: 52px;
+    font-size: 35px;
+  }
+  .img-hero {
+    width: 75%;
+    height: auto;
+  }
+
+  .hero-tagline p {
+    margin: 20px 0 60px;
+    width: 70%;
+  }
+
+  #layanan h2 {
+    font-size: 34px;
+  }
+
+  #layanan .sub-title {
+    font-size: 16px;
+  }
+
+  .card-layanan .circle-icon img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .card-layanan h3 {
+    font-size: 20px;
+  }
+
+  .card-layanan p {
+    font-size: 13px;
+  }
+
+  #search {
+    height: 50vh;
+  }
+
+  #search h2 {
+    font-size: 40px;
+    line-height: 52px;
+  }
+
+  #search .sub-search {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .input-cari .button-secondary {
+    width: 50%;
+    height: 60px;
+    border-radius: 0 0 0 0 !important;
+  }
+
+  .input-cari .no {
+    border-radius: 0 0 0 0 !important;
+  }
+
+  .input-cari .button-primary {
+    height: 60px;
+    width: 30%;
+    font-size: 20px;
+    border-radius: 0 0 0 0;
+  }
+
+  #search input.form-control {
+    height: 60px !important;
+    border-radius: 0 0 0 0px !important;
+  }
+
+  #recomendation h2 {
+    font-size: 40px;
+  }
+
+  #contact h3 {
+    font-size: 25px;
+    width: 100%;
+  }
+
+  #hero {
+    width: 100vw;
+  }
+}
+
+/* hp */
+@media (max-width: 576px) {
+  #search h2 {
+    font-size: 1.5rem;
+  }
+
+  #search p {
+    font-size: 1rem;
+  }
+
+  #recomendation h2,
+  #feature h2 {
+    font-size: 2rem;
+  }
+
+  #feature h2,
+  #feature button {
+    text-align: start;
+  }
+
+  #feature button .img-arrow-left {
+    margin-left: 1.2rem;
+  }
+
+  #feature button .img-arrow-right {
+    margin-left: 1.7rem;
+  }
+
+  #layanan .card-container {
+    margin-left: 0.5rem;
+  }
+
+  #contact {
+    margin-top: 1rem;
+  }
+
+  #contact button {
+    font-size: 1.5rem;
+  }
+
+  #footer p {
+    text-align: center;
+  }
+  /* footer .footer-link {
+    display: none;
+  }
+
+  footer p {
+    width: 100%;
+  } */
+}
